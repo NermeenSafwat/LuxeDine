@@ -172,6 +172,7 @@ nav ul li a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2.5rem;
+  width: 100%;
 }
 .card {
   background: white;
@@ -203,7 +204,8 @@ nav ul li a:hover {
 
 /* Footer */
 footer {
-  padding: 3rem;
+  width: 100%;
+  padding: 3rem 0;
   background: var(--primary);
   color: white;
   text-align: center;
